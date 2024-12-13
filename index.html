@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="img/FAVICON2.png" rel="icon" type="image/png">
+    <!-- Incluindo a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <title>Portfólio</title>
+</head>
+<body>
+    <!-- Cabeçalho fixo com navegação -->
+    <header class="cabecalho-fixo">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+    <!-- Seção Início -->
+        <section id="inicio">
+        </section>
+
+        <!-- Seção da Foto -->
+        <section class="foto">
+            <img src="img/foto3.jpg" alt="Minha Foto" class="minha-foto">
+            <p>
+                Rafael Silva <br>
+                20 anos <br>
+                Estudante
+            </p>
+        </section>
+
+        <!-- Botões de Contato -->
+        <div class="contato-botoes">
+            <a href="https://www.instagram.com/rsilva0708" target="_blank" class="contato-botao">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/+5564999842587" target="_blank" class="contato-botao">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <div class="contato-botao email-botao" onclick="copiarEmail()">
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="sobremim">
+            <h3 class="sobre">Sobre</h3>
+            <p class="about">
+                👋🏼Prazer! Sou Rafael Silva, atualmente estou cursando faculdade de Sistemas de Informação, e estou desenvolvendo projetos para criar soluções para a comunidade.
+                <br>💻Estudante de programação. Sempre em busca de aprender e criar soluções que façam a diferença.
+                <br>♾️Gosto de trabalhar em grupo, e em ambientes que me façam e permitam-me evoluir.
+            </p>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos">
+            <h3 class="proj">Projetos</h3>
+            
+            <!-- Switch Personalizado para alternar entre Projetos Meus e Projetos em Equipe -->
+            <div class="custom-switch-container">
+                <div class="custom-switch" onclick="alternarProjetos()">
+                    <div class="switch-slider"></div>
+                    <span class="switch-option">Meus</span>
+                    <span class="switch-option">Equipe</span>
+                </div>
+            </div>
+        
+            <!-- Seção de Projetos Meus -->
+            <section id="conteudo1" class="conteudo ativo">
+                <div class="grid-projetos">
+                    <a href="https://rafasilva07.github.io/pagPessoal/" target="_blank" class="projeto-link">
+                    <div class="projeto-item">
+                        <h4 class="projeto-titulo">Página Pessoal</h4>
+                        <p class="projeto-descricao">Minha página pessoal, venha me conhecer.</p>
+                    </div>
+                </a>
+                    <a href="https://rafasilva07.github.io/pagEvento/" target="_blank" class="projeto-link">
+                    <div class="projeto-item">
+                        <h4 class="projeto-titulo">Página de Evento</h4>
+                        <p class="projeto-descricao">Uma página de lançamento de um estabelecimento.</p>
+                    </div>
+                </a>
+                    <a href="https://rafasilva07.github.io/lojavirtual/" target="_blank" class="projeto-link">
+                    <div class="projeto-item">
+                        <h4 class="projeto-titulo">Loja Virtual</h4>
+                        <p class="projeto-descricao">Um projeto inicial de um site de uma loja, algo simples, com foco por enquanto apenas no front-end.</p>
+                    </div>
+                </a>
+                <a href="https://rafasilva07.github.io/CalculadoraWeb/" target="_blank" class="projeto-link">
+                    <div class="projeto-item">
+                        <h4 class="projeto-titulo">Calculadora</h4>
+                        <p class="projeto-descricao">Uma calculadora funcional usando HTML, CSS, JavaScript</p>
+                    </div>
+                </a>
+                <a href="https://rafasilva07.github.io/JogoAposta/" target="_blank" class="projeto-link">
+                    <div class="projeto-item">
+                        <h4 class="projeto-titulo">Jogo - Corrida dos Quadrados</h4>
+                        <p class="projeto-descricao">Um projeto de um jogo de apostar em uma corrida de quadrados.</p>
+                    </div>
+                </a>
+                </div>
+            </section>
+        
+            <!-- Seção de Projetos em Equipe -->
+            <section id="conteudo2" class="conteudo">
+                <div class="grid-projetos">
+                    
+                    <div class="projeto-item">
+                        <h4 class="projeto-titulo">Projetos ainda em execução</h4>
+                        <p class="projeto-descricao">aqui futuramente, ficarão os projetos desenvolvidos por mim, juntamente com a minha equipe.</p>
+                        </div>
+                    
+                </div>
+            </section>
+        </section>
+        
+        
+        <section></section>
+    </main>
+    <!-- Rodapé -->
+    <footer class="rodape"></footer>
+    <script src="javascript/script.js" defer></script>
+</body>
+</html>
