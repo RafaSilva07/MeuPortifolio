@@ -1,5 +1,3 @@
-### Readme para o Projeto de Portfólio
-
 # Portfólio
 
 Este é o código do meu portfólio pessoal, onde apresento minhas informações, habilidades, projetos desenvolvidos e formas de contato.
