@@ -1,12 +1,8 @@
 ### Readme para o Projeto de Portfólio
 
-# Portfólio Pessoal
+# Portfólio
 
 Este é o código do meu portfólio pessoal, onde apresento minhas informações, habilidades, projetos desenvolvidos e formas de contato.
-
-## 🚀 Demonstração
-
-O portfólio está disponível em: [Meu Portfólio](https://rafasilva07.github.io/pagPessoal/)
 
 ---
 
